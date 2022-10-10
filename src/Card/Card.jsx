@@ -21,7 +21,7 @@ const Card = (props) => {
                   >
                     <input
                       type="text"
-                      className="form-control"
+                      className="form-control me-md-0 me-2"
                       placeholder="Feel Free to Search !"
                       onChange={props.onchange}
                       value={props.value}
@@ -62,7 +62,7 @@ const Card = (props) => {
                     </div>
                     <div className="col-md-6  ps-5">
                       {/* <h6 className="ps-5 span__field">12</h6> */}
-                      <h6 className="ps-5 span__field">{followers}</h6>
+                      <h6 className="ps-md-5 span__field">{followers}</h6>
                     </div>
                   </div>
                   <div className="row align-items-center user__following py-1">
@@ -71,7 +71,7 @@ const Card = (props) => {
                     </div>
                     <div className="col-md-6 ps-5 ">
                       {/* <h6 className="ps-5 span__field">14</h6> */}
-                      <h6 className="ps-5 span__field">{following}</h6>
+                      <h6 className="ps-md-5 span__field">{following}</h6>
                     </div>
                   </div>
                   <div className="row align-items-center user__public__repo py-1">
@@ -80,7 +80,7 @@ const Card = (props) => {
                     </div>
                     <div className="col-md-6 ps-5 ">
                       {/* <h6 className="ps-5 span__field">46</h6> */}
-                      <h6 className="ps-5 span__field">{public_repos}</h6>
+                      <h6 className="ps-md-5 span__field">{public_repos}</h6>
                     </div>
                   </div>
                 </div>
